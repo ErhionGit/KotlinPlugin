@@ -7,4 +7,18 @@ api-version: 1.10.2
 commands:
   gm:
     description: Used to change gamemode.
+    aliases:
+      - "gmode"
     usage: "Usage: /<command> [player] [gamemode]"
+  god:
+    description: When a player is in god mode, he does not take damages.
+    aliases:
+      - "godmode"
+    usage: "Usage: /<command> [player]"
+  feed:
+    description: "Used to feed a player."
+    aliases:
+      - "feedall"
+      - "setfood"
+      - "sethunger"
+    usage: "Usage: /<command> [player] [level]"
